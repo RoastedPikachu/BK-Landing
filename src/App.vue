@@ -136,4 +136,52 @@ export default {
     }
   }
 
+  @media(max-width: 450px) {
+    #app {
+      #squares {
+        height: 80%;
+      }
+    }
+  }
+
+  @media(min-width: 600px) and (max-width: 1100px) {
+    #app {
+      #squares {
+        height: 90%;
+      }
+    }
+  }
+
+  @media(min-height: 1200px) and (max-height: 1399px) {
+    #app {
+      #squares {
+        height: 75%;
+      }
+    }
+  }
+
+  @media(min-height: 1400px) and (max-height: 1599px) {
+    #app {
+      #squares {
+        height: 67.5%;
+      }
+    }
+  }
+
+  @media(min-height: 1600px) and (max-height: 1799px) {
+    #app {
+      #squares {
+        height: 60%;
+      }
+    }
+  }
+
+  @media(min-height: 1800px) and (max-height: 1999px) {
+    #app {
+      #squares {
+        height: 52.5%;
+      }
+    }
+  }
+
 </style>

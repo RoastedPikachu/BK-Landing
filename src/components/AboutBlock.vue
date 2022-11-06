@@ -100,4 +100,28 @@ export default {
     }
   }
 
+  @media(min-width: 600px) and (max-width: 1100px) {
+    .aboutBlock {
+      width: 85%;
+      h2 {
+        font-size: 34px;
+      }
+      div {
+        .aboutBlock-text {
+          p {
+            font-size: 16px;
+          }
+          p:nth-child(1) {
+            font-size: 20px;
+          }
+        }
+        img {
+          margin-left: 5%;
+          width: 40%;
+          height: 75%;
+        }
+      }
+    }
+  }
+
 </style>

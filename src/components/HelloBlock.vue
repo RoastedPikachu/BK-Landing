@@ -71,4 +71,26 @@ export default {
       }
     }
   }
+
+  @media(min-width: 600px) and (max-width: 1100px) {
+    .helloBlock {
+      height: 700px;
+      div {
+        margin-top: -100px;
+        width: 90%;
+        .helloBlock-topParagraph {
+          font-size: 46px;
+        }
+      }
+      .helloBlock-img {
+        display: none;
+      }
+    }
+  }
+
+  @media(min-width: 1800px) {
+    .helloBlock {
+      height: 1100px;
+    }
+  }
 </style>

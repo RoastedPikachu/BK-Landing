@@ -88,4 +88,22 @@ export default {
       }
     }
   }
+
+  @media(min-width: 600px) and (max-width: 1100px) {
+    footer {
+      height: 225px;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+      span {
+        p {
+          font-size: 20px;
+        }
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
 </style>

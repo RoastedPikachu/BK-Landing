@@ -50,4 +50,10 @@ export default {
     }
   }
 
+  @media(min-width: 600px) and (max-width: 1100px) {
+    .contactIcons {
+      margin-top: 22%;
+    }
+  }
+
 </style>

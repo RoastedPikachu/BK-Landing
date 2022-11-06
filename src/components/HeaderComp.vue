@@ -103,4 +103,35 @@ export default {
       }
     }
   }
+
+  @media(min-width: 600px) and (max-width: 1100px) {
+    .nav {
+      img {
+        width: 7.5%;
+      }
+      span {
+        width: 50%;
+        p {
+          line-height: 20px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  @media(min-width: 1800px) {
+    .nav {
+      height: 120px;
+      img {
+        width: 6.5%;
+        height: 85px;
+      }
+      span {
+        width: 45%;
+        p {
+          font-size: 30px;
+        }
+      }
+    }
+  }
 </style>

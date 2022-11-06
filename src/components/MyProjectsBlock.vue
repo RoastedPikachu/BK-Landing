@@ -133,11 +133,13 @@ export default {
       height: 700px;
       h2 {
         margin-top: 50px;
+        height: auto;
         font-size: 34px;
       }
       a {
         width: 80%;
         height: 200px;
+        margin-top: 50px; 
         div {
           p {
             margin-top: calc(35% - 10px);
@@ -159,7 +161,33 @@ export default {
         }
       }
       a:last-child {
-        margin-top: 50px; 
+        margin-top: 50px;
+      }
+    }
+  }
+
+  @media(min-width: 600px) and (max-width: 1100px) {
+    .myProjectsBlock {
+      height: 1000px;
+      h2 {
+        height: 100px;
+        font-size: 34px;
+      }
+      a {
+        height: 300px;
+        div {
+          p {
+            margin-top: calc(34% - 10px);
+            font-size: 32px;
+          }
+          p:nth-child(3) {
+            margin-top: calc(35% + 20px);
+            font-size: 26px;
+          }
+          p:nth-child(4) {
+            display: none;
+          }
+        }
       }
     }
   }
