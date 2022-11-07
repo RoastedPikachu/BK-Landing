@@ -106,4 +106,22 @@ export default {
       }
     }
   }
+
+  @media(min-width: 1800px) {
+    footer {
+      height: 300px;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+      span {
+        p {
+          font-size: 30px;
+        }
+      }
+      p {
+        font-size: 24px;
+      }
+    }
+  }
 </style>

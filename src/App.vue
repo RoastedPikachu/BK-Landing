@@ -176,10 +176,10 @@ export default {
     }
   }
 
-  @media(min-height: 1800px) and (max-height: 1999px) {
+  @media(min-height: 1800px) and (max-height: 2100px) {
     #app {
       #squares {
-        height: 52.5%;
+        height: 50%;
       }
     }
   }

@@ -56,4 +56,14 @@ export default {
     }
   }
 
+  @media(min-width: 1800px) {
+    .contactIcons {
+      margin-top: 17.5%;
+      p {
+        height: 80px;
+        font-size: 52px;
+      }
+    }
+  }
+
 </style>

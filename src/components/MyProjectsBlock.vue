@@ -191,4 +191,26 @@ export default {
       }
     }
   }
+
+  @media(min-width: 1800px) {
+    .myProjectsBlock {
+      height: 1770px;
+      h2 {
+        font-size: 52px;
+      }
+      a {
+        height: 650px;
+        div {
+          p {
+            margin-top: calc(30% - 10px);
+            font-size: 52px;
+          }
+          p:nth-child(3) {
+            margin-top: calc(30% + 60px);
+            font-size: 38px;
+          }
+        }
+      }
+    }
+  }
 </style>

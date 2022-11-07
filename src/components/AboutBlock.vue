@@ -124,4 +124,30 @@ export default {
     }
   }
 
+  @media(min-width: 1800px) {
+    .aboutBlock {
+      height: 950px;
+      h2 {
+        font-size: 52px;
+      }
+      div {
+        height: 600px;
+        .aboutBlock-text {
+          p {
+            margin-top: 40px;
+            font-size: 26px;
+          }
+          p:nth-child(1) {
+            font-size: 40px;
+          }
+        }
+        img {
+          margin-left: 15%;
+          width: 30%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
 </style>
