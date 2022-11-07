@@ -68,6 +68,8 @@ export default {
   },
   mounted() {
     this.createStars();
+    console.log(window.innerWidth);
+    console.log(window.innerHeight);
   },
   components: {
     HeaderComp,
@@ -145,6 +147,14 @@ export default {
   }
 
   @media(min-width: 600px) and (max-width: 1100px) {
+    #app {
+      #squares {
+        height: 90%;
+      }
+    }
+  }
+
+  @media(min-height: 800px) and (max-height: 1000px) {
     #app {
       #squares {
         height: 90%;

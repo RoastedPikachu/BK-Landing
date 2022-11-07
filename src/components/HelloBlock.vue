@@ -90,23 +90,27 @@ export default {
 
   @media(min-width: 1600px) and (max-width: 1899px) {
     .helloBlock {
+      height: 800px;
       .helloBlock-img {
         width: 50%;
       }
     }
   }
 
-
   @media(min-width: 1800px) {
     .helloBlock {
       height: 1100px;
       div {
+        margin-top: -15%;
         .helloBlock-topParagraph {
           font-size: 62px;
         }
         .helloBlock-bottomParagraph {
           font-size: 30px;
         }
+      }
+      .helloBlock-img {
+        width: 47.5%;
       }
     }
   }
