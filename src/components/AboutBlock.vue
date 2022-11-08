@@ -9,7 +9,7 @@
         <p>Мой технологический стек: <strong>HTML, CSS (Scss), JS, Vue3 (Vuex, Vue Router, NuxtJS)</strong></p>
         <p>Мои хобби: чтение, всемирная история, настольные игры и стратегии.</p>
       </div>
-      <img src="@/assets/Me.jpeg">
+      <img src="@/assets/MyPortrait.jpeg">
     </div>
   </section>
 </template>

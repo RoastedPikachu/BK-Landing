@@ -16,18 +16,15 @@
 </template>
 
 <script>
-//import MobileMenu from './MobileMenu.vue';
 
 export default {
   name: 'HeaderComp',
   data() {
     return {
-
     }
   },
   components: {
-    //MobileMenu
-  }
+  },
 }
 </script>
 
