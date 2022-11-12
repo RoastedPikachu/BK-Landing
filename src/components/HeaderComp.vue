@@ -9,7 +9,7 @@
         <a href="#Projects">Мои проекты</a>
       </p>
       <p>
-        <a>Контакты</a>
+        <a href="#Contacts">Контакты</a>
       </p>
     </span>
   </div>
