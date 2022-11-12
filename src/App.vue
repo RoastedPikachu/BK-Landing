@@ -31,8 +31,8 @@ export default {
   },
   methods: {
     createStars() {
-      for (let i = 0; i < 500; i++) {
-        if (i <= 400) {
+      for (let i = 0; i < 400; i++) {
+        if (i <= 325) {
 
           let star = document.createElement('li');
           star.classList.add('starSmall');
@@ -42,7 +42,7 @@ export default {
           star.style.animationDelay = `${Math.round(Math.random() * 20)}s`;
           star.style.left=`${Math.round(Math.random() * 100)}%`;
 
-        } else if (i > 400 && i <= 475) {
+        } else if (i > 325 && i <= 375) {
 
           let star = document.createElement('li');
           star.classList.add('starMedium');
