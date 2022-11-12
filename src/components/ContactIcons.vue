@@ -44,13 +44,13 @@ export default {
     }
   }
 
-  @media(max-width: 450px) {
+  @media(max-width: 475px) {
     .contactIcons {
       display: none;
     }
   }
 
-  @media(min-width: 600px) and (max-width: 1100px) {
+  @media(min-width: 550px) and (max-width: 1100px) {
     .contactIcons {
       margin-top: 22%;
     }

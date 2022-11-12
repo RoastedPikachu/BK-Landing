@@ -22,6 +22,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '@/styles/variables.scss';
+
   footer {
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +31,6 @@ export default {
     margin-top: 70px;
     width: 100%;
     height: 250px;
-    background-color: #1c1d25; 
     img {
       margin-top: -30px;
       width: 80px; 
@@ -45,14 +46,13 @@ export default {
         font-family: 'Open Sans', sans-serif;
         text-align: center;
         a {
-          color: white;
+          color: $txt-color-global;
           text-decoration: none;
           transition: 150ms ease;
         }
         a:hover {
-          color: white;
           border-style: solid;
-          border-color:  white;
+          border-color:  $txt-color-global;
           border-width: 0px 0px 3px 0px;
         }
       } 
@@ -67,7 +67,7 @@ export default {
     }
   }
 
-  @media(max-width: 450px) {
+  @media(max-width: 475px) {
     footer {
       height: 200px;
       img {
@@ -89,7 +89,7 @@ export default {
     }
   }
 
-  @media(min-width: 600px) and (max-width: 1100px) {
+  @media(min-width: 550px) and (max-width: 1100px) {
     footer {
       height: 225px;
       img {

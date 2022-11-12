@@ -76,7 +76,7 @@ export default {
     }
   }
 
-  @media(max-width: 450px){
+  @media(max-width: 475px){
     .nav {
       flex-direction: column;
       margin-left: 10%;
@@ -101,7 +101,7 @@ export default {
     }
   }
 
-  @media(min-width: 600px) and (max-width: 1100px) {
+  @media(min-width: 550px) and (max-width: 1100px) {
     .nav {
       img {
         width: 7.5%;

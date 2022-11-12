@@ -32,6 +32,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '@/styles/variables.scss';
   .myProjectsBlock {
     display: flex;
     flex-direction: column;
@@ -42,8 +43,8 @@ export default {
       margin-top: 100px;
       width: 100%;
       height: 150px;
-      color: #1c1d25;
-      font-size: 38px;
+      color: $bg-color-global;
+      font-size: $h2-Laptop-fontSize;
       font-family: 'Lora', serif;
       text-align: center;
     }
@@ -73,7 +74,7 @@ export default {
           position: absolute;
           margin-top: calc(40% - 10px);
           margin-left: 7.5%;
-          color: white;
+          color: $txt-color-global;
           font-size: 40px;
           font-family: 'Open Sans', sans-serif;
           font-weight: bold;
@@ -88,7 +89,7 @@ export default {
         p:nth-child(4) {
           right: -15px;
           margin-top: -50px;
-          color: white;
+          color: $txt-color-global;
           opacity: 0;
           font-size: 202px;
         }
@@ -128,13 +129,13 @@ export default {
     }
   }
 
-  @media(max-width: 450px) {
+  @media(max-width: 475px) {
     .myProjectsBlock {
       height: 700px;
       h2 {
         margin-top: 50px;
         height: auto;
-        font-size: 34px;
+        font-size: $h2-Mobile-fontSize;
       }
       a {
         width: 80%;
@@ -166,7 +167,7 @@ export default {
     }
   }
 
-  @media(min-width: 600px) and (max-width: 1100px) {
+  @media(min-width: 550px) and (max-width: 1100px) {
     .myProjectsBlock {
       height: 1000px;
       h2 {
@@ -196,7 +197,7 @@ export default {
     .myProjectsBlock {
       height: 1770px;
       h2 {
-        font-size: 52px;
+        font-size: $h2-PC-fontSize;
       }
       a {
         height: 650px;

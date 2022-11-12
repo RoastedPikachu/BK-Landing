@@ -20,6 +20,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '@/styles/variables.scss';
   .helloBlock {
     display: flex;
     justify-content: space-between;
@@ -29,7 +30,7 @@ export default {
     height: 750px;
     div {
       width: 50%;
-      color: white;
+      color: $txt-color-global;
       z-index: 10;
       .helloBlock-topParagraph {
         width: 100%;
@@ -54,7 +55,7 @@ export default {
     }
   }
 
-  @media(max-width: 450px) {
+  @media(max-width: 475px) {
     .helloBlock {
       height: 600px;
       div {
@@ -72,7 +73,7 @@ export default {
     }
   }
 
-  @media(min-width: 600px) and (max-width: 1100px) {
+  @media(min-width: 550px) and (max-width: 1100px) {
     .helloBlock {
       height: 700px;
       div {

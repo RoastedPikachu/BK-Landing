@@ -84,6 +84,7 @@ export default {
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Open+Sans:wght@400;600&display=swap');
+@import './styles/variables.scss';
 
   * {
     margin: 0;
@@ -93,7 +94,7 @@ export default {
 
   #app {
     min-height: 800px;
-    background-color: #1c1d25;
+    background-color: $bg-color-global;
     #squares {
       position: absolute;
       width: 100%;
@@ -104,7 +105,7 @@ export default {
         position: absolute;
         bottom: -150px;
         border-radius: 100%;
-        background-color: white;
+        background-color: $txt-color-global;
         animation: animate 25s linear infinite;
       }
       .starBig {
@@ -138,7 +139,7 @@ export default {
     }
   }
 
-  @media(max-width: 450px) {
+  @media(max-width: 475px) {
     #app {
       #squares {
         height: 80%;

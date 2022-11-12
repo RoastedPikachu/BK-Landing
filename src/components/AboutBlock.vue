@@ -26,18 +26,19 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '@/styles/variables.scss';
   .aboutBlock {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
     width: 80%;
     height: 800px;
-    color: white;
+    color: $txt-color-global;
     h2 {
       width: 100%;
       height: 150px;
       text-align: center;
-      font-size: 38px;
+      font-size: $h2-Laptop-fontSize;
       font-family: 'Lora', serif;
     }
     div {
@@ -56,7 +57,7 @@ export default {
         }
         p:nth-child(1) {
           margin-top: 0px;
-          color: white;
+          color: $txt-color-global;
           font-size: 24px;
         }
       }
@@ -71,13 +72,13 @@ export default {
     }
   }
 
-  @media(max-width: 450px) {
+  @media(max-width: 475px) {
     .aboutBlock {
       margin-top: 50px;
       height: 1200px;
       h2 {
         height: 100px;
-        font-size: 34px;
+        font-size: $h2-Mobile-fontSize;
       }
       div {
         flex-direction: column; 
@@ -100,7 +101,7 @@ export default {
     }
   }
 
-  @media(min-width: 600px) and (max-width: 1100px) {
+  @media(min-width: 550px) and (max-width: 1100px) {
     .aboutBlock {
       width: 85%;
       h2 {
@@ -128,7 +129,7 @@ export default {
     .aboutBlock {
       height: 950px;
       h2 {
-        font-size: 52px;
+        font-size: $h2-PC-fontSize;
       }
       div {
         height: 600px;
