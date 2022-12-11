@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
-    <img src="@/assets/Group-1.png" title="BKorobka" alt="BKorobka">
-    <span>
+    <img src="@/assets/Group.png" title="BKorobka" alt="BKorobka">
+    <nav>
       <p>
         <a href="#About">Обо мне</a>
       </p>
@@ -11,7 +11,7 @@
       <p>
         <a href="#Contacts">Контакты</a>
       </p>
-    </span>
+    </nav>
   </div>
 </template>
 
@@ -22,8 +22,6 @@ export default {
   data() {
     return {
     }
-  },
-  components: {
   },
 }
 </script>
@@ -45,7 +43,7 @@ export default {
       height: 55px;
       background-size: cover;
     }
-    span {
+    nav {
       display: flex;
       justify-content: space-between;
       width: 40%;
@@ -87,7 +85,7 @@ export default {
         margin-right: 6%;
         width: 20%;
       }
-      span {
+      nav {
         margin-top: 30px;
         width: 100%;
         height: 70px;
@@ -106,7 +104,7 @@ export default {
       img {
         width: 7.5%;
       }
-      span {
+      nav {
         width: 50%;
         p {
           line-height: 20px;
@@ -123,7 +121,7 @@ export default {
         width: 6.5%;
         height: 85px;
       }
-      span {
+      nav {
         width: 45%;
         p {
           font-size: 30px;

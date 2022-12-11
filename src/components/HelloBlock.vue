@@ -51,7 +51,7 @@ export default {
       width: 45%;
       height: 60%;
       background-size: cover; 
-      background-image: url('@/assets/Moon1.png');
+      background-image: url('@/assets/Moon.png');
     }
   }
 

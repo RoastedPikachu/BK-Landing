@@ -68,8 +68,6 @@ export default {
   },
   mounted() {
     this.createStars();
-    console.log(window.innerWidth);
-    console.log(window.innerHeight);
   },
   components: {
     HeaderComp,
